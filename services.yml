@@ -2,7 +2,7 @@ version: '3'
 
 services:
   node-app:
-    image: node-app:1.0
+    image: node-app:1.1
     deploy:
       replicas: 5
     ports:
